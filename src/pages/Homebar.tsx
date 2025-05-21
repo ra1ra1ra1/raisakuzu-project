@@ -32,8 +32,15 @@ function Homebar() {
                     padding: '10px',
                     width: '120px',
                     height: '80px'
-            }}>
-            ホーム</button>
+            }}>  
+            <img src="/images/home.png"
+                 alt="ホームアイコン"
+                 style={{
+                    width: '40px',
+                    height: '40px',
+                    marginBottom: '5px'
+               }}/>
+            </button>
             <button style={{
                     border : 'solid 2px red',
                     backgroundColor: '#ff7f50',
@@ -42,8 +49,15 @@ function Homebar() {
                     width: '120px',
                     height: '80px'
             }}>
-             ガチャ
-            </button>
+            <img src="/images/46333.png"
+                 alt="ガチャアイコン"
+                 style={{
+                    width: '40px',
+                    height: '45px',
+                    marginBottom: '5px'
+               }}/>
+               
+            </button> 
         </div>
 
     )
