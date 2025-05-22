@@ -1,0 +1,16 @@
+.saturday-bg {
+  background-color: rgb(196, 197, 227);
+}
+
+.sunday-bg {
+  background-color: rgb(242, 194, 194);
+}
+
+.fc-daygrid-day-number {
+    color: #000;
+}
+
+.fc-col-header-cell-cushion {
+    color:black;
+
+}
