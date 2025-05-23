@@ -1,6 +1,6 @@
 import { getStickyHeaderDates } from "@fullcalendar/core/internal";
 import React, { useState } from "react";
-
+//変数を保存する部分
 function Todo() {
   const [inputValue, setInputValue] = useState("");
 
