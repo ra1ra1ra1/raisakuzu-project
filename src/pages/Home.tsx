@@ -53,6 +53,7 @@ function Home() {
       />
       <p className="text test" >テキスト</p>
     </div>
+    
   );
 }
 
