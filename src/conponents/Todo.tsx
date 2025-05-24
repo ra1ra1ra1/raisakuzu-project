@@ -130,11 +130,7 @@ function Todo() {
         ))}
 
       </ul>
-      <button
-        onClick={() => {
-          console.log(todos);
-        }}
-      ></button></div>
+ </div>
   )
 }
 
