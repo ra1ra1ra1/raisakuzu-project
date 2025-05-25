@@ -5,6 +5,7 @@ import timeGridPlugin from "@fullcalendar/timegrid";
 import allLocales from "@fullcalendar/core/locales-all";
 import { useState } from "react";
 import "./Calendar.css";
+import Todo from './Todo.tsx'
 
 function Home() {
   const [firstDay, setFirstDay] = useState(1);
@@ -51,8 +52,12 @@ function Home() {
           },
         }}
       />
-      <p className="text test" >テキスト</p>
+      <p className="text test" ></p>
+      <Todo>
+
+      </Todo>
     </div>
+    
     
   );
 }
