@@ -1,36 +1,18 @@
 import { Link } from "react-router";
 
+
+
+
 function Homebar() {
     return (
 
         <div style={{display: 'flex',
-                     gap: '10px',
+                     gap: '1px',
                      justifyContent: 'center',
                      alignItems: 'center',
-                     padding: '5px'}}>
-            <button style=
-                {{
-                    border : 'solid 2px red',
-                    backgroundColor: '#00ffff',
-                    textAlign: 'center',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'center',
-                    padding: '10px',
-                    width: '140px',
-                    height: '80px',
-                    position: 'fixed',
-                    bottom : '15px',
-                    left : '150px',
-                    cursor : 'default'
-                }}
-            >
-                <span>現在のポイント</span>
-                <span style={{
-                 fontSize: '1.2em', 
-                 fontWeight: 'bold' }}>
-                100pt</span>
-            </button>
+                     padding: '5px'}}> 
+        
+        
         <Link to="/">
             <button style={{
                     border : 'solid 2px red',

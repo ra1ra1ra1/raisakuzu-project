@@ -7,7 +7,6 @@ import Home from './pages/Home.tsx'
 import Gacha from './pages/Gacha.tsx'
 import Homebar from './pages/Homebar.tsx'
 
-
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
@@ -19,3 +18,6 @@ createRoot(document.getElementById('root')!).render(
     </BrowserRouter>
   </StrictMode>,
 )
+
+
+
